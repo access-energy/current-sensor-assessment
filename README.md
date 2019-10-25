@@ -28,5 +28,5 @@ There is also a CMakeList.txt file for building the project in CMake or developi
 using a CMake compatibles IDE such as CLion
 
 ## Diagram
-![Block Diagram](DC Meter White BG.png)
+![Block Diagram](https://github.com/access-energy/current-sensor-assessment/blob/master/DC_Meter_White_BG.png)
 
