@@ -3,32 +3,24 @@
 Running this project in the command line simulates reading a current value 
 from an ADC, this value is then printed to the command line.
 
-The ADC being used is a MCP3424: https://www.microchip.com/wwwproducts/en/MCP3424
-
 ## Task
 
-See the assessment document for a full description of the task.
+See the assessment document for a description of the task.
 
 Feel free to:
- * Implement additional fake ic support that may be required
- * Add or change the main.c file to fit your implementation
- * Create additional files to support your architecture
- * Continue building the project manually, update the cmake file or swap to using make
+ * Implement additional fake IC support that may be required.
+ * Create additional files to support your architecture.
+ * Continue building the project manually, update the cmake file, or swap to using make.
 
 
 ## Building & Running
 
-Building and running the project can be perform with the following commands.
+Building and running the project may be performed with the following commands:
 
 ```shell
 gcc main.c -o main.o
 ./main.o
 ```
 
-There is also a CMakeList.txt file for building the project using CMake or developing
-using a compatible IDE such as CLion. 
-
-## Diagram
-
-![Block Diagram](https://github.com/access-energy/current-sensor-assessment/blob/master/DC_Meter_White_BG.png)
-
+There is also a `CMakeList.txt` file for building the project using CMake or developing
+using a compatible IDE such as CLion.
